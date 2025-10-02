@@ -46,3 +46,10 @@ DOMAIN-SUFFIX,player.twitch.tv
 DOMAIN-SUFFIX,pubsub.twitch.tv
 DOMAIN-SUFFIX,static-cdn.jtvnw.net
 DOMAIN-SUFFIX,clips-media-assets2.twitch.tv
+
+DOMAIN-KEYWORD,twitch,PROXY
+DOMAIN-KEYWORD,jtvnw,PROXY
+DOMAIN-KEYWORD,ttvnw,PROXY
+DOMAIN-KEYWORD,twitchcdn,PROXY
+DOMAIN-KEYWORD,akamaihd,PROXY
+DOMAIN-KEYWORD,llnwd,PROXY

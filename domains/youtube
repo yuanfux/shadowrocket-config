@@ -174,3 +174,8 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtubemobilesupport.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+
+DOMAIN-KEYWORD,youtube,PROXY
+DOMAIN-KEYWORD,googlevideo,PROXY
+DOMAIN-KEYWORD,ytimg,PROXY
+DOMAIN-KEYWORD,googleapis,PROXY
