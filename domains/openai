@@ -1,0 +1,78 @@
+# OpenAI services and domains
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN-SUFFIX,openai-async-uploads-production.s3.us-west-2.amazonaws.com
+DOMAIN-SUFFIX,openai-gpt-dev-westus-2.openai.azure.com
+DOMAIN-SUFFIX,openai.azure.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,chatgptapi.net
+
+# OpenAI API endpoints
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,beta.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+DOMAIN-SUFFIX,playground.openai.com
+DOMAIN-SUFFIX,labs.openai.com
+DOMAIN-SUFFIX,cdn.openai.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,auth.openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,files.openai.com
+
+# Claude/Anthropic (often used alongside OpenAI)
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,console.anthropic.com
+DOMAIN-SUFFIX,api.anthropic.com
+DOMAIN-SUFFIX,docs.anthropic.com
+
+# Other AI services commonly used with OpenAI
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,replicate.com
+
+# CDN and assets
+DOMAIN-SUFFIX,cdn.chatgpt.com
+DOMAIN-SUFFIX,cdn.openai.com
+DOMAIN-SUFFIX,static.openai.com
+DOMAIN-SUFFIX,images.openai.com
+DOMAIN-SUFFIX,assets.openai.com
+
+# Authentication services
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+
+# WebSocket connections for ChatGPT
+DOMAIN-SUFFIX,wss.chatgpt.com
+DOMAIN-SUFFIX,ws.openai.com
+
+# DALL-E specific
+DOMAIN-SUFFIX,dalle-mini.com
+DOMAIN-SUFFIX,dalle2.openai.com
+DOMAIN-SUFFIX,labs.openai.com
+
+# GPT Store
+DOMAIN-SUFFIX,gptstore.ai
+DOMAIN-SUFFIX,gpts.openai.com
+
+# OpenAI Research
+DOMAIN-SUFFIX,research.openai.com
+DOMAIN-SUFFIX,papers.openai.com
+
+# OpenAI Status
+DOMAIN-SUFFIX,status.openai.com
+DOMAIN-SUFFIX,openai.statuspage.io
+
+# IP ranges commonly used by OpenAI (CloudFlare)
+IP-CIDR,104.18.0.0/16,PROXY
+IP-CIDR,172.64.0.0/13,PROXY
