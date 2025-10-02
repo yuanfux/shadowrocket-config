@@ -1,0 +1,145 @@
+# Google services - Selective proxy (excluding common APIs used by apps)
+# Core Google search and services
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,google.ca
+DOMAIN-SUFFIX,google.de
+DOMAIN-SUFFIX,google.fr
+DOMAIN-SUFFIX,google.es
+DOMAIN-SUFFIX,google.it
+DOMAIN-SUFFIX,google.com.au
+DOMAIN-SUFFIX,google.com.br
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.co.kr
+DOMAIN-SUFFIX,google.co.in
+DOMAIN-SUFFIX,google.com.mx
+DOMAIN-SUFFIX,google.com.ar
+DOMAIN-SUFFIX,google.com.sa
+DOMAIN-SUFFIX,google.com.eg
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.sg
+DOMAIN-SUFFIX,google.com.my
+DOMAIN-SUFFIX,google.com.ph
+DOMAIN-SUFFIX,google.com.tr
+DOMAIN-SUFFIX,google.co.th
+DOMAIN-SUFFIX,google.co.id
+DOMAIN-SUFFIX,google.co.za
+DOMAIN-SUFFIX,google.com.ng
+DOMAIN-SUFFIX,google.com.pk
+DOMAIN-SUFFIX,google.com.bd
+DOMAIN-SUFFIX,google.com.vn
+DOMAIN-SUFFIX,google.nl
+DOMAIN-SUFFIX,google.be
+DOMAIN-SUFFIX,google.ch
+DOMAIN-SUFFIX,google.at
+DOMAIN-SUFFIX,google.se
+DOMAIN-SUFFIX,google.no
+DOMAIN-SUFFIX,google.dk
+DOMAIN-SUFFIX,google.fi
+DOMAIN-SUFFIX,google.pl
+DOMAIN-SUFFIX,google.cz
+DOMAIN-SUFFIX,google.hu
+DOMAIN-SUFFIX,google.ro
+DOMAIN-SUFFIX,google.gr
+DOMAIN-SUFFIX,google.pt
+DOMAIN-SUFFIX,google.ie
+DOMAIN-SUFFIX,google.co.nz
+DOMAIN-SUFFIX,google.cl
+DOMAIN-SUFFIX,google.com.pe
+DOMAIN-SUFFIX,google.com.co
+DOMAIN-SUFFIX,google.com.ve
+DOMAIN-SUFFIX,google.com.ec
+DOMAIN-SUFFIX,google.com.uy
+DOMAIN-SUFFIX,google.com.py
+DOMAIN-SUFFIX,google.com.bo
+DOMAIN-SUFFIX,google.com.gt
+DOMAIN-SUFFIX,google.com.sv
+DOMAIN-SUFFIX,google.com.ni
+DOMAIN-SUFFIX,google.com.pa
+DOMAIN-SUFFIX,google.com.do
+DOMAIN-SUFFIX,google.com.pr
+DOMAIN-SUFFIX,google.com.ua
+
+# Core Google user services (not APIs)
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+
+# Google Meet, Workspace
+DOMAIN-SUFFIX,meet.google.com
+DOMAIN-SUFFIX,hangouts.google.com
+DOMAIN-SUFFIX,chat.google.com
+DOMAIN-SUFFIX,mail.google.com
+DOMAIN-SUFFIX,calendar.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,sheets.google.com
+DOMAIN-SUFFIX,slides.google.com
+DOMAIN-SUFFIX,forms.google.com
+DOMAIN-SUFFIX,sites.google.com
+DOMAIN-SUFFIX,keep.google.com
+DOMAIN-SUFFIX,jamboard.google.com
+DOMAIN-SUFFIX,workspace.google.com
+DOMAIN-SUFFIX,currents.google.com
+
+# Google Cloud Platform (excluding APIs)
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,googlecloud.com
+DOMAIN-SUFFIX,googleblog.com
+DOMAIN-SUFFIX,googlegroups.com
+
+# Chrome & Android
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,androidify.com
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromecast.com
+DOMAIN-SUFFIX,chromebook.com
+DOMAIN-SUFFIX,chromeos.dev
+DOMAIN-SUFFIX,chromeexperiments.com
+DOMAIN-SUFFIX,chromestatus.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,g.co
+
+# Other Google properties
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,grow.google
+DOMAIN-SUFFIX,madewithcode.com
+DOMAIN-SUFFIX,tiltbrush.com
+DOMAIN-SUFFIX,waymo.com
+DOMAIN-SUFFIX,whatbrowser.org
+DOMAIN-SUFFIX,x.company
+
+# Note: The following are EXCLUDED to prevent breaking Chinese apps:
+# - googleapis.com (APIs)
+# - googleanalytics.com (Analytics)
+# - google-analytics.com (Analytics)
+# - googletagmanager.com (Tag Manager)
+# - googletagservices.com (Ad services)
+# - googleadservices.com (Ad services)
+# - googlesyndication.com (Ad services)
+# - doubleclick.net (Ad services)
+# - firebase.com (Backend services)
+# - firebaseio.com (Backend services)
+# - firebaseapp.com (Backend services)
+# - googlemaps.com (Maps API)
+# - googleplay.com (Play Store APIs)
+# - recaptcha.net (CAPTCHA services)
+# - gvt1.com, gvt2.com, gvt3.com (CDN)
+# - ampproject.org (AMP)
+# - googleoptimize.com (A/B testing)
